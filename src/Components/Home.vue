@@ -8,7 +8,7 @@
         <v-row>
             <v-carousel>
                 <v-carousel-item src="/images/volkan-vardar-1H30uRC1plc-unsplash.jpg"><</v-carousel-item>
-                <v-carousel-item src="/images/public/images/victoria-shes-UC0HZdUitWY-unsplash.jpg"><</v-carousel-item>
+                <v-carousel-item src="/images/victoria-shes-UC0HZdUitWY-unsplash.jpg"><</v-carousel-item>
                 <v-carousel-item src="/images/pablo-merchan-montes-hyIE90CN6b0-unsplash.jpg"><</v-carousel-item>
                 <v-carousel-item src="images/siyuan-g_V2rt6iG7A-unsplash.jpg"><</v-carousel-item>
             </v-carousel>
@@ -32,7 +32,7 @@
             <v-col md="4">
                 <v-card color="teal-darken-3">
                     <v-img 
-                    src="/images/public/images/joseph-gonzalez-fdlZBWIP0aM-unsplash.jpg" 
+                    src="/images/joseph-gonzalez-fdlZBWIP0aM-unsplash.jpg" 
                     class="align-end text-white" 
                     height="200" 
                     cover>
@@ -47,7 +47,7 @@
                <v-col md="4">
                 <v-card color="teal-darken-3">
                     <v-img 
-                    src="/images/public/images/igor-rand-wfM1Fi-kMaY-unsplash.jpg" 
+                    src="/images/igor-rand-wfM1Fi-kMaY-unsplash.jpg" 
                     class="align-end text-white" 
                     height="200" 
                     cover>
@@ -62,7 +62,7 @@
               <v-col md="4">
                 <v-card color="teal-darken-3">
                     <v-img 
-                    src="/images/public/images/volkan-vardar-1H30uRC1plc-unsplash (1).jpg" 
+                    src="/images/volkan-vardar-1H30uRC1plc-unsplash (1).jpg" 
                     class="align-end text-white" 
                     height="200" 
                     cover>
@@ -79,12 +79,12 @@
     <!-- Footer -->
     <v-container>
         <v-row>
-            <v-footer class="text-center d-flex flex-column ga-2 py-4" color="deep-purple-lighten-1">
-                
-                <v-btn icon="'mdi-facebook'" density="comfortable" variant="text" ></v-btn>
-                <v-btn icon="'mdi-twitter'" density="comfortable" variant="text" ></v-btn>
-                <v-btn icon="'mdi-linkepurple-lighten-1din'" density="comfortable" variant="text" ></v-btn>
-                <v-btn icon="'mdi-instagram'" density="comfortable" variant="text" ></v-btn>
+            <v-footer class="text-center d-flex flex-column ga-2 py-4" color="teal-darken-3">
+                <div>
+                <v-btn icon="mdi-facebook" density="comfortable" variant="text" ></v-btn>
+                <v-btn icon="mdi-twitter" density="comfortable" variant="text" ></v-btn>
+                <v-btn icon="mdi-linkepurple-lighten-1din" density="comfortable" variant="text" ></v-btn>
+                <v-btn icon="mdi-instagram" density="comfortable" variant="text" ></v-btn>
                 </div>
 
                 <v-divider class="my-2" thickness="2" width="50"></v-divider>
@@ -96,7 +96,7 @@
                 <v-divider></v-divider>
 
                 <div>
-                {{ new Date().getFullYear() }} — <strong>Vuetify</strong>
+                {{ new Date().getFullYear() }} — <strong>Suvaya</strong>
                 </div>
             </v-footer>
         </v-row>
